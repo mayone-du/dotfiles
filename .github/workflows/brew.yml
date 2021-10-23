@@ -1,0 +1,10 @@
+name: Brew install check
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: macos
+    steps:
+      - name: Install Brew
+        run: bin/install_brew.sh
