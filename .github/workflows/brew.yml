@@ -6,5 +6,7 @@ jobs:
   build:
     runs-on: macos
     steps:
-      - name: Install Brew
-        run: bin/install_brew.sh
+      - name: Sample Test
+        run: echo "sample ci"
+      # - name: Install Brew
+      #   run: bin/install_brew.sh
