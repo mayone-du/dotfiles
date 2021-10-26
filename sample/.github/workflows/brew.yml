@@ -1,10 +1,11 @@
+# TODO: GitHub Actionsを追加
 name: Brew install check
 
 on: [push]
 
 jobs:
   build:
-    runs-on: macos
+    runs-on: ubuntu-latest
     steps:
       - name: Sample Test
         run: echo "sample ci"
